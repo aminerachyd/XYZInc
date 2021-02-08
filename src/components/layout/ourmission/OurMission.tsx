@@ -5,7 +5,7 @@ interface OurMissionProps {}
 
 const OurMission: React.FC<OurMissionProps> = ({}) => {
   return (
-    <Container maxWidth="4xl" align="center">
+    <Container py={5} maxWidth="4xl" align="center">
       <Heading mt={6} color="blue.500">
         Our Mission
       </Heading>

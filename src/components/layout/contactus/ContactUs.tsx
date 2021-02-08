@@ -19,7 +19,7 @@ interface ContactUsProps {}
 
 const ContactUs: React.FC<ContactUsProps> = ({}) => {
   return (
-    <Box py={5} backgroundColor="blue.100">
+    <Box py={10} backgroundColor="blue.100">
       <Container maxWidth="3xl" align="center">
         <Heading color="blue.600">Get In Touch</Heading>
         <Divider borderColor="#333" w="100%" my={2} border="2px" />

@@ -15,7 +15,7 @@ interface TestimonialsProps {}
 
 const Testimonials: React.FC<TestimonialsProps> = ({}) => {
   return (
-    <Box py={5} mt={5} backgroundColor="blue.500">
+    <Box py={10} mt={5} backgroundColor="blue.500">
       <Container maxWidth="6xl" align="center">
         <Heading color="white">They Trusted Us</Heading>
         <Divider borderColor="blue.100" w="100%" my={2} border="2px" />
